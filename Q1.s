@@ -2,9 +2,9 @@
 
 	.data
 sign:	.word	0
-int:	.word	0
-frac:   .word	12
-length:	.word	4
+int:	.word	0					# Input format:
+frac:   .word	12					# given number = 0.12 = 0.1100					
+length:	.word	4					# length of fractional part to differentiate the leading zeroes with others.
 	.text
 
 main:
